@@ -38,3 +38,9 @@ local Section = Tab:NewSection("TOOL")
 Section:NewButton("TOOL GIVING", "Can use in some map", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub-Backup/main/gametoolgiver.lua"))()
 end)
+
+-- Ghost hub 
+local Section = Tab:NewSection("GHOST HUB")
+Section:NewButton("Click here", "Can use in some map", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
