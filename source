@@ -1,0 +1,40 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ayo X Studio", "BloodTheme")
+
+local Tab = Window:NewTab("MAIN MENU")
+
+-- admin
+local Section = Tab:NewSection("ADMIN")
+Section:NewButton("Infinite Yield", "Admin scripts can use in any game", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+-- blox fruit
+
+local Section = Tab:NewSection("BLOX FRUIT")
+Section:NewButton("Speed Hub", "Blox fruit script ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+end)
+
+-- king legacy
+
+local Section = Tab:NewSection("KING LEGACY")
+Section:NewButton("Hyper Hub", "King legacy script ", function()
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+end)
+
+--- troll
+local Tab = Window:NewTab("TROLL")
+
+-- Fe car
+local Section = Tab:NewSection("FE car")
+Section:NewButton("Fe car", "Must have accesory car", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexCr4sh/FeScripts/main/FeCarScript.lua", true))()
+end)
+
+-- tool giving
+local Section = Tab:NewSection("TOOL")
+Section:NewButton("TOOL GIVING", "Can use in some map", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub-Backup/main/gametoolgiver.lua"))()
+end)
