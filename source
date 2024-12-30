@@ -9,6 +9,29 @@ Section:NewButton("Infinite Yield", "Admin scripts can use in any game", functio
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+-- tool giving
+local Section = Tab:NewSection("TOOL")
+Section:NewButton("Tool giving", "Can use in any map", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub-Backup/main/gametoolgiver.lua"))()
+end)
+
+-- Ghost hub 
+local Section = Tab:NewSection("GHOST HUB")
+Section:NewButton("Ghost hub script", "Can use in some map", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+
+-- Fe car
+local Section = Tab:NewSection("FE SCRIPT")
+Section:NewButton("Fe car", "Make u ride your car like u ride in smooth surface (Must have accesory car)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexCr4sh/FeScripts/main/FeCarScript.lua", true))()
+end)
+
+
+--
+
+local Tab = Window:NewTab("ANOTHER GAME")
 -- blox fruit
 
 local Section = Tab:NewSection("BLOX FRUIT")
@@ -22,25 +45,4 @@ local Section = Tab:NewSection("KING LEGACY")
 Section:NewButton("Hyper Hub", "King legacy script ", function()
 repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
-end)
-
---- troll
-local Tab = Window:NewTab("TROLL")
-
--- Fe car
-local Section = Tab:NewSection("FE CAR")
-Section:NewButton("Fe car", "Make u ride your car like u ride in smooth surface (Must have accesory car)", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexCr4sh/FeScripts/main/FeCarScript.lua", true))()
-end)
-
--- tool giving
-local Section = Tab:NewSection("TOOL")
-Section:NewButton("Tool giving", "Can use in some map", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub-Backup/main/gametoolgiver.lua"))()
-end)
-
--- Ghost hub 
-local Section = Tab:NewSection("GHOST HUB")
-Section:NewButton("Ghost hub script", "Can use in some map", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
 end)
