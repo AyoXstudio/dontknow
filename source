@@ -35,7 +35,7 @@ end)
 
 -- tool giving
 local Section = Tab:NewSection("TOOL")
-Section:NewButton("TOOL GIVING", "Can use in some map", function()
+Section:NewButton("Tool giving", "Can use in some map", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub-Backup/main/gametoolgiver.lua"))()
 end)
 
